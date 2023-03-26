@@ -2,10 +2,10 @@
     "name": "No-SQL-No-Life",
     "version": "1.0.0",
     "description": "Reverse engineer developer activity for CRUD methods in Mongoose",
-    "main": "index.js",
+    "main": "server.js",
     "license": "MIT",
     "scripts": {
-      "start": "node index",
+      "start": "node server",
       "dev": "nodemon index",
       "seed": "node utils/seed"
     },

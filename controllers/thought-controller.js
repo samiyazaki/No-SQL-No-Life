@@ -1,7 +1,7 @@
 const {Thought, User } = require("../models");
 
 //Loads all the thoughts
-const thoughtCOntroller ={
+const thoughtController ={
     getAllThoughts(req, res) {
         Thought.find({})
         .populate({
@@ -18,14 +18,14 @@ const thoughtCOntroller ={
     },
 
 //Loads one thought by specific id
-    getThoughById({ params }, res) {
+    getThoughtById({ params }, res) {
         Thought.findOne({ _id: params.id })
         .populate({
             path: "reactions",
             select: "-__v",
         })
         .select("-__v")
-        .then((dbThoughData) => {
+        .then((dbThoughtData) => {
             if (!dbThoughtData) {
             return res.status(404).json({ message: "No though with this id!" });
         }
@@ -64,9 +64,9 @@ updateThought ({ params, body }, res) {
         new: true,
         runValidators: true,
     })
-    .then((dbTHoughtData) => {
+    .then((dbThoughtData) => {
         if (!dbThoughtData) {
-            res.status(404).json({ message: "No thought with this id!" });
+            res.status(404).json({ message: "No thought with this id!" })
             return;
         }
         res.json(dbThoughtData);
@@ -105,7 +105,7 @@ addReaction({ params, body }, res) {
     )
     .then((dbThoughtData) => {
         if (!dbThoughtData) {
-            return res.status(404).json({ message: "No thought with this id!" });
+        res.status(404).json({ message: "No thought with this id!" });
         return;
         }
         res.json(dbThoughtData);
