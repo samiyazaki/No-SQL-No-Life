@@ -1,5 +1,5 @@
 {
-    "name": "No-SQL-No-Life",
+    "name": "no-sql-no-life",
     "version": "1.0.0",
     "description": "Reverse engineer developer activity for CRUD methods in Mongoose",
     "main": "server.js",
