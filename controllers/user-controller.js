@@ -40,7 +40,7 @@ const userController = {
             console.log(err);
             res.sendStatus(400);
         }
-        );
+        )
     },
 
     createUser({ body }, res) {
