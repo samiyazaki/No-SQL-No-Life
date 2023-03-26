@@ -2,7 +2,7 @@ const {Thought, User } = require("../models");
 
 //Loads all the thoughts
 const thoughtCOntroller ={
-    getAlThoughts(req, res) {
+    getAllThoughts(req, res) {
         Thought.find({})
         .populate({
             path: "reactions",
