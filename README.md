@@ -6,6 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samiyazaki" alt="samiyazaki" /></a> </p>
 
 - 🔭 I'm currently working on [No-SQL-No-Life](https://github.com/samiyazaki/No-SQL-No-Life)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SVc9uSW14no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - 🌱 I'm currently learning **MongoDB, RegEx, Insomnia, SQL, PWA**
 
