@@ -7,9 +7,11 @@
 
 - 🔭 I'm currently working on [No-SQL-No-Life](https://github.com/samiyazaki/No-SQL-No-Life)
 
-[label](../../Homework%2018%20Nosql%20social%20api.mp4)
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=SVc9uSW14no&ab_channel=SeiyaMiyazaki "Now in Android: 55")
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SVc9uSW14no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[<img src="assets\Homework 18 Nosql social api.gif" width="50%">](https://www.youtube.com/watch?v=SVc9uSW14no&ab_channel=SeiyaMiyazaki "No SQL social network API")
+
+## No SQL No Life - Social Network API
+### This is a social network API built with Express.js, MongoDB, and Mongoose. It uses CRUD operations to create, read, update, and delete users, thoughts, and reactions.
+### When the user accesses the API, they can create, read, update, and delete users, thoughts, and reactions. They can also add and remove friends from a user's friend list, and add and remove reactions to a thought. The API also uses Mongoose virtuals to populate the API with virtual fields.
 
 - 🌱 I'm currently learning **MongoDB, RegEx, Insomnia, SQL, PWA**
 
